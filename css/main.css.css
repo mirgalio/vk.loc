@@ -1,0 +1,41 @@
+
+@font-face {
+  font-family: 'comfortaabold';
+  src: url('fonts/comfortaa-bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  background: #B3AE94;
+  margin: 0;
+  font-family: 'comfortaabold';
+}
+form {
+  border: 3px outset #C2BEA9;
+  margin: 40px auto;
+  padding: 20px;
+  width: 500px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#848484), to(#d6d6d6));
+  border-radius: 50px;
+  box-shadow: 0 -5px 300px #fffff7 5;
+}
+h1 {
+  text-align: center;
+  color: #666;
+}
+.login {
+  width: 465px;
+  height: 30px;
+  margin: 5px;
+  padding: 0 10px;
+  color: #f26522;
+  border: solid 1px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.submit {
+  width: 500px;
+  height: 60px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
